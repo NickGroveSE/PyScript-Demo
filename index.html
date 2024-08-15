@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Greetings!</title>
+    <!-- linking to PyScript assets -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
+    <script type="module" src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>
+  </head>
+  <body>
+
+    
+    <div id="nav"></div>
+    <div id="main-content">
+        <section id="diagram-space" py-onClick="click()"></section>
+    </div>
+    </div>
+    <py-script src="./main.py"></py-script>
+    <py-terminal id="terminal"></py-terminal>
+  </body>
+</html>
